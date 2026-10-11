@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Le Cellier d’Halouze, gîte de charme pour 4 personnes à Dol-de-Bretagne, entre baie du Mont-Saint-Michel, Saint-Malo et Dinan.">
+<title>Le Cellier d’Halouze — Gîte de charme en Bretagne</title>
+<style>
+:root{--ink:#24372d;--green:#405e4b;--sage:#e8eee5;--cream:#faf7ef;--gold:#b18a51;--muted:#69756b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--cream);line-height:1.65}
+a{color:inherit}.topbar{display:flex;justify-content:space-between;align-items:center;padding:18px 6%;background:var(--cream);gap:20px}.brand{font-size:1.35rem;font-weight:bold;letter-spacing:.02em}.brand small{display:block;font: .7rem Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}nav{display:flex;gap:22px;flex-wrap:wrap;font: .88rem Arial,sans-serif}nav a{text-decoration:none}nav a:hover{color:var(--gold)}
+.hero{min-height:600px;display:grid;align-items:end;position:relative;color:white;background:linear-gradient(90deg,rgba(20,35,27,.76),rgba(20,35,27,.12)),url('https://admin.clevacances.com/media/34170/large/1.jpg') center/cover no-repeat;background-color:#526a57}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,27,19,.5),transparent 65%)}
+.herocopy{position:relative;max-width:760px;padding:90px 8% 75px}.eyebrow{font: .78rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.2em;color:#e8d7b7}.hero h1{font-size:clamp(2.6rem,6vw,5.1rem);line-height:1.04;margin:15px 0 22px;font-weight:normal}.hero p{font-size:1.2rem;max-width:600px}.btn{display:inline-block;margin:12px 10px 0 0;padding:13px 21px;border:1px solid var(--gold);background:var(--gold);color:#fff;text-decoration:none;font: .88rem Arial,sans-serif;letter-spacing:.03em}.btn.secondary{background:transparent;border-color:#fff}.facts{display:grid;grid-template-columns:repeat(4,1fr);background:var(--green);color:#fff;text-align:center;padding:24px 5%;gap:12px}.facts strong{display:block;font-size:1.6rem;font-weight:normal}.facts span{font: .75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;color:#e3e9e1}
+section{padding:78px 7%;scroll-margin-top:20px}.sectionhead{max-width:720px;margin:0 auto 38px;text-align:center}.sectionhead .eyebrow{color:var(--gold)}h2{font-size:clamp(2rem,4vw,3.2rem);font-weight:normal;line-height:1.15;margin:10px 0 18px}h3{font-size:1.35rem;font-weight:normal;margin:.4rem 0}.intro{font-size:1.12rem;color:#4f5d52}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;max-width:1150px;margin:auto}.photo{min-height:430px;background:url('https://admin.clevacances.com/media/34170/large/2.jpg') center/cover no-repeat;background-color:#d5ddcf}.note{border-left:3px solid var(--gold);padding:5px 0 5px 20px;color:var(--muted);font-style:italic}
+.soft{background:var(--sage)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1150px;margin:auto}.card{background:#fff;padding:28px;border:1px solid #e2e5dc}.icon{font-size:1.8rem;color:var(--gold)}.card p{color:var(--muted);margin-bottom:0}.rooms{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:1100px;margin:auto}.room{background:white}.room img{width:100%;height:260px;object-fit:cover;display:block;background:#d9ded4}.room div{padding:22px 25px}.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:12px;max-width:1150px;margin:auto}.gallery img{width:100%;height:100%;object-fit:cover;background:#d9ded4}.gallery img:first-child{grid-row:span 2}.destinations{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:1000px;margin:auto}.destination{padding:20px;background:white;border-top:2px solid var(--gold)}.destination strong{display:block;font-size:1.2rem}.destination span{font: .85rem Arial,sans-serif;color:var(--muted)}
+.history{max-width:900px;margin:auto;text-align:center}.history p{font-size:1.08rem}.history .caution{font: .88rem Arial,sans-serif;color:var(--muted);background:#fff;padding:18px}
+.contact{background:var(--green);color:white;text-align:center}.contact .eyebrow{color:#e8d7b7}.contact p{max-width:650px;margin:0 auto 20px;color:#e4e9e2}.contact .btn{background:var(--gold);border-color:var(--gold)}footer{padding:28px 6%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font: .8rem Arial,sans-serif;color:var(--muted)}footer a{color:var(--green)}
+@media(max-width:760px){.topbar{align-items:flex-start;flex-direction:column}nav{gap:12px}.hero{min-height:540px}.facts{grid-template-columns:repeat(2,1fr)}section{padding:58px 6%}.aboutgrid,.cards,.rooms,.destinations{grid-template-columns:1fr}.photo{min-height:300px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px 150px}.gallery img:first-child{grid-row:auto;grid-column:span 2}.gallery img{height:100%}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">Le Cellier d’Halouze<small>Gîte de charme · Dol-de-Bretagne</small></div>
+  <nav aria-label="Navigation principale">
+    <a href="#gite">Le gîte</a><a href="#equipements">Équipements</a><a href="#galerie">Photos</a><a href="#decouvrir">À découvrir</a><a href="#histoire">Histoire du manoir</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+<section class="hero" aria-label="Le Cellier d’Halouze">
+  <div class="herocopy">
+    <div class="eyebrow">Bretagne · Baie du Mont-Saint-Michel</div>
+    <h1>Un séjour au calme,<br>dans une maison de caractère.</h1>
+    <p>Posez vos valises au Cellier d’Halouze, une ancienne longère entourée de verdure, idéale pour découvrir les paysages et les cités de caractère de la Haute-Bretagne.</p>
+    <a class="btn" href="#contact">Préparer votre séjour</a>
+    <a class="btn secondary" href="https://www.clevacances.com/fr/hebergement/34170-gite-le-cellier-dhalouze-a-dol-de-bretagne-et-10min-de-la-baie-du-mont-saint" target="_blank" rel="noopener">Voir l’annonce Clévacances</a>
+  </div>
+</section>
+<div class="facts">
+  <div><strong>4</strong><span>Voyageurs</span></div><div><strong>85 m²</strong><span>De confort</span></div><div><strong>2</strong><span>Chambres</span></div><div><strong>1,4 ha</strong><span>De propriété</span></div>
+</div>
+<section id="gite">
+  <div class="aboutgrid">
+    <div class="photo" role="img" aria-label="Le parc arboré du Cellier d’Halouze"></div>
+    <div>
+      <div class="eyebrow">Bienvenue chez nous</div><h2>Le charme de l’ancien, le confort d’aujourd’hui</h2>
+      <p class="intro">Au cœur d’un ancien corps de ferme, le gîte accueille jusqu’à quatre personnes dans une atmosphère paisible, entre campagne et littoral.</p>
+      <p>La maison de 85 m² mêle le caractère de la longère à des espaces rénovés et fonctionnels. Deux terrasses permettent de profiter des différents moments de la journée, tandis que le parc arboré invite à ralentir et à respirer.</p>
+      <p class="note">Les propriétaires habitent sur place et vous réservent un accueil personnalisé, tout en préservant votre tranquillité.</p>
+    </div>
+  </div>
+</section>
+<section id="equipements" class="soft">
+  <div class="sectionhead"><div class="eyebrow">Votre séjour</div><h2>Tout pour se sentir bien</h2><p class="intro">Un gîte pensé pour les vacances en couple, en famille ou entre amis.</p></div>
+  <div class="cards">
+    <article class="card"><div class="icon">⌂</div><h3>Deux chambres</h3><p>Une chambre au rez-de-chaussée avec lit de 140 cm et une chambre à l’étage avec lit de 160 cm. Linge de lit fourni.</p></article>
+    <article class="card"><div class="icon">♨</div><h3>Une maison équipée</h3><p>Cuisine ouverte, four, micro-ondes, réfrigérateur-congélateur, lave-linge, télévision et Wi-Fi.</p></article>
+    <article class="card"><div class="icon">♧</div><h3>Des extérieurs à savourer</h3><p>Deux terrasses, mobilier de jardin, transats, barbecue, grand parc arboré et stationnement privé.</p></article>
+    <article class="card"><div class="icon">♿</div><h3>Plain-pied</h3><p>La chambre du rez-de-chaussée et sa salle d’eau communicante peuvent convenir à deux personnes à mobilité réduite. Contactez-nous pour vérifier vos besoins précis.</p></article>
+    <article class="card"><div class="icon">♢</div><h3>Pour les familles</h3><p>Kit bébé disponible sur demande : lit et chaise haute.</p></article>
+    <article class="card"><div class="icon">♧</div><h3>Loisirs et vélos</h3><p>Abri vélos, table de ping-pong, matériel de badminton et documentation pour découvrir les environs.</p></article>
+  </div>
+</section>
+<section id="galerie">
+  <div class="sectionhead"><div class="eyebrow">En images</div><h2>La maison et son environnement</h2><p class="intro">Quelques aperçus du gîte, des terrasses et de la campagne environnante.</p></div>
+  <div class="gallery">
+    <img src="https://admin.clevacances.com/media/34170/large/1.jpg" alt="Le Cellier d’Halouze" loading="lazy">
+    <img src="https://admin.clevacances.com/media/34170/large/2.jpg" alt="Le parc arboré" loading="lazy">
+    <img src="https://admin.clevacances.com/media/34170/large/3.jpg" alt="La terrasse côté parc" loading="lazy">
+    <img src="https://admin.clevacances.com/media/34170/large/4.jpg" alt="L’espace cuisine" loading="lazy">
+    <img src="https://admin.clevacances.com/media/34170/large/5.jpg" alt="La pièce de vie" loading="lazy">
+  </div>
+  <p style="text-align:center;color:var(--muted);font: .85rem Arial,sans-serif;margin-top:18px">Les photos ci-dessus sont chargées depuis l’annonce Clévacances ; les liens des images pourront être ajustés si nécessaire.</p>
+</section>
+<section id="decouvrir" class="soft">
+  <div class="sectionhead"><div class="eyebrow">Entre terre et mer</div><h2>Une belle base pour explorer la Bretagne</h2><p class="intro">Le Cellier d’Halouze se trouve à Dol-de-Bretagne, au cœur d’un territoire riche en patrimoine, en sentiers et en paysages maritimes.</p></div>
+  <div class="destinations">
+    <div class="destination"><strong>Dol-de-Bretagne</strong><span>À quelques minutes · Cathédrale Saint-Samson et ruelles anciennes</span></div>
+    <div class="destination"><strong>Mont-Dol</strong><span>Environ 6 km · Panorama et petite cité de caractère</span></div>
+    <div class="destination"><strong>Baie du Mont-Saint-Michel</strong><span>Environ 30 km · Grands espaces et paysages changeants</span></div>
+    <div class="destination"><strong>Cancale</strong><span>Environ 25 km · Port, huîtres et pointe du Grouin</span></div>
+    <div class="destination"><strong>Saint-Malo</strong><span>Environ 30 km · Remparts et côte d’Émeraude</span></div>
+    <div class="destination"><strong>Dinan & Dinard</strong><span>Environ 30 km · Patrimoine, Rance et bord de mer</span></div>
+  </div>
+</section>
+<section id="histoire" class="soft">
+  <div class="history">
+    <div class="eyebrow">Patrimoine et mémoire locale</div>
+    <h2>Le manoir d’Halouze : une histoire à découvrir</h2>
+    <p class="intro">Au Cellier d’Halouze, le séjour est aussi l’occasion de découvrir un lieu ancien de la campagne doloise et les épisodes de l’histoire bretonne qui ont marqué ses environs.</p>
+    <p>Les recherches menées autour de la propriété situent déjà son histoire à la fin du XVI<sup>e</sup> siècle. Les archives et les indices architecturaux pourront permettre d’en apprendre davantage sur les habitants du lieu, son rôle dans la vie locale et les transformations du bâtiment au fil du temps.</p>
+  </div>
+  <div class="cards" style="margin-top:35px">
+    <article class="card">
+      <div class="icon">Ⅰ</div><h3>Une présence attestée en 1589</h3>
+      <p>Les éléments réunis autour du manoir font remonter son histoire au moins à 1589. Cette date constitue un point de départ pour poursuivre les recherches dans les archives locales.</p>
+    </article>
+    <article class="card">
+      <div class="icon">Ⅱ</div><h3>La famille Peschard</h3>
+      <p>La famille Peschard est associée à Halouze dans les recherches portant sur la fin du XVI<sup>e</sup> siècle. Les actes anciens pourront aider à préciser les liens familiaux, les fonctions et la présence de cette famille à Dol-de-Bretagne.</p>
+    </article>
+    <article class="card">
+      <div class="icon">Ⅲ</div><h3>La Bretagne en temps de troubles</h3>
+      <p>L’année 1589 s’inscrit dans les guerres de Religion et les affrontements entre catholiques et protestants. Un épisode d’attaque du manoir par des protestants est rapporté dans les recherches sur l’histoire du lieu ; son récit mérite d’être confronté aux sources historiques.</p>
+    </article>
+  </div>
+  <div class="history" style="margin-top:40px">
+    <h2>Les pierres racontent aussi le passé</h2>
+    <p>La maison conserve des éléments anciens qui suscitent des questions : maçonneries, ouvertures, sculpture et pierre en forme de coquille signalées dans le bâtiment. Leur étude pourrait contribuer à mieux comprendre les usages et les différentes phases de construction.</p>
+    <p>Cette page a vocation à s’enrichir au fil des découvertes : documents d’archives, anciens propriétaires, histoire de la famille Peschard et évolution du manoir au cours des siècles.</p>
+    <p class="caution"><strong>Note historique :</strong> cette rubrique présente les pistes de recherche actuellement réunies par les propriétaires. Les détails concernant l’attaque de 1589, les occupants et l’interprétation des éléments architecturaux doivent être confirmés par des sources documentaires avant d’être présentés comme des faits établis.</p>
+  </div>
+</section>
+<section id="contact" class="contact">
+  <div class="eyebrow">À bientôt en Haute-Bretagne</div><h2>Envie de découvrir le Cellier d’Halouze ?</h2>
+  <p>Pour consulter les disponibilités et les conditions de séjour, retrouvez l’annonce Clévacances. Vous pouvez aussi nous contacter via cette annonce.</p>
+  <a class="btn" href="https://www.clevacances.com/fr/hebergement/34170-gite-le-cellier-dhalouze-a-dol-de-bretagne-et-10min-de-la-baie-du-mont-saint" target="_blank" rel="noopener">Disponibilités et contact</a>
+</section>
+</main>
+<footer><span>© Le Cellier d’Halouze · Dol-de-Bretagne</span><span>Site de présentation indépendant · <a href="https://www.clevacances.com/fr/hebergement/34170-gite-le-cellier-dhalouze-a-dol-de-bretagne-et-10min-de-la-baie-du-mont-saint" target="_blank" rel="noopener">Annonce Clévacances</a></span></footer>
+</body>
+</html>
